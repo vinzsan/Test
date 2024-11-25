@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onee san</title>
+</head>
+<body>
+    <h1 id="Satu">Oneee :></h1>
+    <img src=MarkBorja.png id="gambar" alt="gambar" onclick="satu()" height="220px" width="300px">
+    <style>
+        body{
+            background-image: url(shiikimori.jpeg);
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+        #Satu{
+            color: plum;
+            text-align: center;
+
+        }
+        #gambar{
+            position: absolute;
+            top: 200px;
+            left: 40px;
+        }
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+  
+  .content {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px){
+  body {
+    padding: 5px;
+  }
+}
+
+
+    </style>
+    <script>
+        document.getElementById('gambar').addEventListener('click',function(){
+            window.open('ily.html','_self');
+        })
+    </script>
+</body>
+</html>
